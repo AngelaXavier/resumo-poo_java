@@ -1,0 +1,5 @@
+  Gradle é uma ferramenta open source de automação de build. Ele organiza eexecuta tarefas, o Gradle utiliza
+  uma DSL (Domain Specific Language) expressiva baseada em Groovy ou Kotlin. Seus principais arquivos de configuração são:
+  build.gradle: define as regras de copilação.
+  settings.gradle:identifica quais módulos fazem parte do projeto e gerencia as configurações gerais do sistema
+  Ele tem vantagens como: flexbilidade, multilinguagem, performance
