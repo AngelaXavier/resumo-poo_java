@@ -1,8 +1,10 @@
   Apache ant é uma ferramenta de linha de comando utilizada para automação de build. Ele é focado principalmente em projetos java, 
-ele é usado para automatizar tarefas repetitivas, como copilar código, executar testes,implantar sistemas, remover arquivos
-temporarios e empacotar arquivos.
+  ele é usado para automatizar tarefas repetitivas, como copilar código, executar testes,implantar sistemas, remover arquivos
+  temporarios e empacotar arquivos.
   Ant utiliza de um arquivo de configuração padrão chamado build.xml, que é escrito em xml e tem alghuns conceitos fundamentais:
   Target: uma tarfa específica que o ant pode executar.
   Task: uma ação atomica dentro do target
   Property: váriavel que armazena um valor.
   Dependency:  target que precisa ser executado antes de outro	
+  Algumas das vantagens do ANT é aa simplicidade, controle, leve, extensivo, multiplatarforma.
+  Suas desvantagens são: sem convenções,scripts repetitivos,build não incrementavel
