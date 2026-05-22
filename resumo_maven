@@ -1,11 +1,11 @@
-  Apache Maven é uma ferramenta de gerenciamento e automação de copilação, utilizada principalmente em Java.
-  Ele elimina a necessidade de baixar arquivos .jar manualmente, padroniza a estrutura de pastas 
-  e automatiza etapas como compilação e testes. A configuração do projeto fica centralizado no arquivo
-  pom.xml. O Maven lê esse arquivo e baixa automaticamente as bibliotecas de repositorio remotos para sua maquina.
-  Para manter a consistência, o Maven exige que o projeto siga uma estrutura de pastas padrão:
-  src/main/java: onde fica o código-fonte principal da sua aplicação.
-  src/main/resources: arquivos de configuração, propriedades e recursos estáticos.
-  src/test/java: onde ficam os testes automatizados.
+  Apache Maven é uma ferramenta de gerenciamento e automação de copilação, utilizada principalmente em Java. Ele
+elimina a necessidade de baixar arquivos .jar manualmente, padroniza a estrutura de pastas 
+e automatiza etapas como compilação e testes. A configuração do projeto fica centralizado no arquivo
+pom.xml. O Maven lê esse arquivo e baixa automaticamente as bibliotecas de repositorio remotos para sua maquina.
+Para manter a consistência, o Maven exige que o projeto siga uma estrutura de pastas padrão:
+src/main/java: onde fica o código-fonte principal da sua aplicação.
+src/main/resources: arquivos de configuração, propriedades e recursos estáticos.
+src/test/java: onde ficam os testes automatizados.
   O maven tem um  ciclo de vida de construção padronizado, são eles:
   Clean: copila o codigo fonte de aplicação.
   test: executa os testes automatizados.
